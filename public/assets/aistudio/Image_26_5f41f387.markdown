@@ -1,0 +1,209 @@
+---
+name: Chromatic Dreamscape
+colors:
+  surface: '#fcf8ff'
+  surface-dim: '#dbd8e6'
+  surface-bright: '#fcf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f5f2ff'
+  surface-container: '#efecfa'
+  surface-container-high: '#e9e6f5'
+  surface-container-highest: '#e3e1ef'
+  on-surface: '#1b1b25'
+  on-surface-variant: '#5a4043'
+  inverse-surface: '#302f3a'
+  inverse-on-surface: '#f2effd'
+  outline: '#8d7072'
+  outline-variant: '#e1bec1'
+  surface-tint: '#b71945'
+  primary: '#b71945'
+  on-primary: '#ffffff'
+  primary-container: '#ff5376'
+  on-primary-container: '#5d001d'
+  inverse-primary: '#ffb2ba'
+  secondary: '#785833'
+  on-secondary: '#ffffff'
+  secondary-container: '#fed2a4'
+  on-secondary-container: '#795934'
+  tertiary: '#00677c'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#419db6'
+  on-tertiary-container: '#00303a'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ffd9dc'
+  primary-fixed-dim: '#ffb2ba'
+  on-primary-fixed: '#400011'
+  on-primary-fixed-variant: '#910031'
+  secondary-fixed: '#ffddba'
+  secondary-fixed-dim: '#e9bf92'
+  on-secondary-fixed: '#2b1700'
+  on-secondary-fixed-variant: '#5e411e'
+  tertiary-fixed: '#b1ebff'
+  tertiary-fixed-dim: '#7bd2ed'
+  on-tertiary-fixed: '#001f27'
+  on-tertiary-fixed-variant: '#004e5e'
+  background: '#fcf8ff'
+  on-background: '#1b1b25'
+  surface-variant: '#e3e1ef'
+typography:
+  display:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 56px
+    fontWeight: '800'
+    lineHeight: 64px
+    letterSpacing: -0.03em
+  display-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '800'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 36px
+    fontWeight: '700'
+    lineHeight: 44px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '700'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+    letterSpacing: 0.02em
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.04em
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1.25rem
+  gutter-desktop: 1.75rem
+  margin: 1rem
+  margin-desktop: 2.5rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+  space-2xl: 4rem
+---
+
+## Brand & Style
+
+This design system crafts an expressive, whimsical, yet pristinely structured environment for next-generation digital comic creation and immersive webtoon consumption. The aesthetic blends playful pop sensibilities with translucent glassmorphic layering and high-clarity typography. It balances the energetic vibrancy of dynamic anime and comic production with the refined usability expected from professional creator suites.
+
+The visual direction centers on soft dimensional radiance: frosted glass backdrops, luminous aura halos, liquid multi-stop pastel gradients, and crisp tactile components. Interfaces feel airy, inspiring, and delightfully responsive—inviting creators into an imaginative canvas while granting readers a fluid, distraction-free reading sanctuary.
+
+## Colors
+
+The palette is derived directly from the sequential five-step rainbow bar:
+- **Primary Vivid Coral (`#FF5376`)**: Powers key interactions, urgent CTAs, chapter unlocks, and active states.
+- **Warm Peach / Salmon Accent (`#FFD3A5` / `#FFAAA6`)**: Serves as secondary warmth for creative prompts, canvas tools, and badge accents.
+- **Pastel Lime / Mint (`#BAF2BB`)**: Marks generative progress indicators, success tags, and chapter status alerts.
+- **Pastel Cyan (`#8DE4FF`)**: Highlights tool focus modes, AI prompt assistant panels, and auxiliary features.
+- **Neutral Dark & Tonal Surfaces**: Crisp base backgrounds (`#FCFCFE` in light mode, `#13131A` in dark mode) paired with slate neutrals (`#1E1E28` and `#6D6D82`) prevent pastel hues from causing fatigue and guarantee AAA legibility.
+
+### Gradient Tokens
+- **Hero Spectrum**: `linear-gradient(135deg, #FF5376 0%, #FFAAA6 25%, #FFD3A5 50%, #BAF2BB 75%, #8DE4FF 100%)`
+- **Sunset Blush**: `linear-gradient(135deg, #FF5376 0%, #FFD3A5 100%)`
+- **Citrus Dew**: `linear-gradient(135deg, #FFD3A5 0%, #BAF2BB 100%)`
+- **Sky Aurora**: `linear-gradient(135deg, #BAF2BB 0%, #8DE4FF 100%)`
+
+## Typography
+
+The design system exclusively adopts `Plus Jakarta Sans` for headlines, interface labels, and copy. Its generous counters, friendly geometry, and crisp cut terminals perfectly mirror the playful yet modern comic atmosphere while delivering effortless readability across webtoon readers and workspace toolbars.
+
+Display text leverages tighter letter tracking (`-0.03em` to `-0.02em`) with bold font weights (`700` and `800`) to anchor webtoon titles and AI prompt headings. Body text uses comfortable line heights (`1.5` to `1.6`) to provide a fatigue-free reading experience across comments, lore summaries, and system dialogs.
+
+## Layout & Spacing
+
+A 12-column responsive grid provides structure for creative tools, studio layouts, and marketplace browse feeds. On mobile viewports, the grid condenses to 4 columns with edge-to-edge webtoon canvas capability. 
+
+- **Reading Canvas**: Centered container constrained to a maximum width of 760px to preserve natural vertical webtoon scroll ergonomics.
+- **Creator Studio**: Fluid dual-dock grid with fixed collapsible sidebars (280px tools, 340px layer & AI parameter inspection) surrounding an infinite fluid canvas.
+- **Margins & Gutters**: Outer canvas margins remain compact (`1rem`) on hand-held screens to maximize reading imagery, stepping up to `2.5rem` on wide displays to cultivate an open, high-end studio presence.
+
+## Elevation & Depth
+
+Visual depth is achieved through translucent glassmorphic surfaces combined with radiant, pastel-tinted atmospheric glows rather than harsh dark drop shadows.
+
+- **Surface 0 (Canvas Base)**: `#FCFCFE` (Light) / `#13131A` (Dark).
+- **Surface 1 (Floating Panels & Cards)**: Glassmorphic background `rgba(255, 255, 255, 0.72)` (or `rgba(28, 28, 38, 0.65)` in Dark), supported by `backdrop-filter: blur(16px)` and a subtle `1px` translucent boundary border (`rgba(255, 255, 255, 0.5)` light / `rgba(255, 255, 255, 0.08)` dark).
+- **Glow & Elevation Tiers**:
+  - *Resting Glow*: `0 4px 20px -2px rgba(255, 83, 118, 0.08), 0 2px 6px -1px rgba(141, 228, 255, 0.06)`
+  - *Hover Elevation*: `0 12px 32px -4px rgba(255, 83, 118, 0.16), 0 4px 12px -2px rgba(186, 242, 187, 0.12)`
+  - *Active / Focus Bloom*: Multi-layered aura halo featuring primary coral: `0 0 0 3px rgba(255, 83, 118, 0.25), 0 8px 24px -2px rgba(255, 83, 118, 0.3)`
+
+## Shapes
+
+The interface embraces a fluid, pill-inspired shape language (`roundedness: 3`) to channel a friendly, approachable, and tactile cartoon feel. 
+
+- Interactive chips, badges, standard buttons, and search inputs are fully pill-rounded (`9999px` or `rounded-full`).
+- Content cards, preview frames, and generative studio panels utilize `rounded-2xl` (`1.5rem`) to `rounded-3xl` (`2rem`).
+- Webtoon frame previews retain smooth corners (`rounded-xl` or `1rem`) to keep the visual tone organic and modern without clipping comic compositions.
+
+## Components
+
+### Buttons
+- **Primary CTA**: Multi-stop gradient fill (`#FF5376` to `#FFD3A5`), full pill radius, solid white bold typography, and an ambient coral drop glow. Expands slightly on active press (`transform: scale(0.98)`).
+- **Secondary Glass Action**: Frosted glass fill (`rgba(255, 255, 255, 0.8)`), subtle 1px border tinted in `#FF5376` or `#8DE4FF`, pill radius, dark neutral label.
+- **Ghost / Tool Button**: Fully circular (`40px x 40px` or `48px x 48px`), transparent base, glowing pastel icon on hover.
+
+### Badges & Pill Tags
+- **Genre & Chapter Status**: Fully pill-shaped with ultra-soft pastel tinted fills (e.g., Mint `#BAF2BB` at 20% opacity for "Completed", Peach `#FFD3A5` at 25% opacity for "Romance", Cyan `#8DE4FF` at 20% opacity for "Sci-Fi"), combined with saturated text labels (`#FF5376` or `#1E1E28`).
+
+### Input Fields & Prompt Bars
+- **AI Prompt Console**: Oversized pill-shaped container featuring a frosted glass background, soft coral focus ring, inner submit button wrapped in the multi-stop pastel gradient, and soft placeholder styling.
+- **Form Inputs**: Pill or soft `1.25rem` corners with `1px` translucent borders that illuminate with a 3px Cyan-Mint ring on active cursor focus.
+
+### Cards & Webtoon Episode Panels
+- **Browse Tile**: Glass card with `1.5rem` corners, edge-to-edge top thumbnail, soft title typography, bottom row with creator pill avatar and mint view-count badge. On hover, the image scales gently (`scale(1.03)`) while the outer card casts an atmospheric coral-cyan ambient glow.
+- **Reading Controls Bar**: Floating glass pill toolbar anchored to the bottom center with backdrop blur, offering quick navigation, chapter switching, and AI auto-translation triggers.

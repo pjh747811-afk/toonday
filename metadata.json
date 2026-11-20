@@ -1,0 +1,6 @@
+{
+  "name": "Chromatic Dreamscape",
+  "description": "Next-generation digital comic creation suite and immersive webtoon reading platform.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
